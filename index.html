@@ -7,9 +7,9 @@
     <title>Sedona</title>
 </head>
 <body>
-    <header class="main-header">
+    <header data-test="header" class="main-header">
         <nav class="navigation">            
-            <img src="#" alt="Sedona logo" class="navigation-logo">
+            <img src="images/logo.svg" alt="Sedona logo." class="navigation-logo" width="140px" height="70px">
             <ul class="navigation-list">
                 <li class="navigation-item">
                     <a href="index.html" class="navigation-link">Главная</a>
@@ -45,47 +45,110 @@
                 </li>
             </ul>
             <button class="btn"></button>
-            <main class="main-content">
-                <section class="hero">
-                    <h1 class="visually-hidden">Sedona</h1>
-                </section>
-                <section class="about">
-                    <h2 class="about-title">Седона — небольшой городок в Аризоне,
-                        заслуживающий большего!</h2>
-                        <p class="about-text">
-                            Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!
-                        </p>
-                </section>
-                <section class="gallery">
-                    <div class="gallery-description">
-                        <h3 class="gallery-description-title bg-blue">Настоящий городок</h3>
-                        <p class="gallery-description-text">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-                    </div>
-                    <div class="gallery-images">
-                        <img src="#" alt="house with flags" class="gallery-img">
-                    </div>
-                    <div class="gallery-description">
-                        <h3 class="gallery-description-title">Небольшая площадь</h3>
-                        <p class="gallery-description-text">Все достопримечательности находятся очень близко</p>
-                    </div>
-                    <div class="gallery-description">
-                        <h3 class="gallery-description-title">Красивая дорога</h3>
-                        <p class="gallery-description-text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
-                    </div>
-                    <div class="gallery-description">
-                        <h3 class="gallery-description-title">Мало туристов</h3>
-                        <p class="gallery-description-text">Большинство едет в Гранд Каньон и толпится там</p>
-                    </div>
-                    <div class="gallery-images">
-                        <img src="#" alt="red canions" class="gallery-img">
-                    </div>
-                    <div class="gallery-description">
-                        <h3 class="gallery-description-title bg-blue">Там есть мост дьявола</h3>
-                        <p class="gallery-description-text">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
-                    </div>
-                </section>
-            </main>
         </nav>
-    </header>      
-</body>
-</html>
+    </header>
+    <main  data-test="main" class="main-content">        
+        <section class="hero" data-test="hero">
+            <h1 class="visually-hidden">Sedona</h1>
+            <img src="images/welcome.svg" alt="Welcone to gorgeous Sedona because the Grand Canyon sucks." width="458px" height=352px >    
+        </section>
+        <section class="about">
+            <h2 class="about-title">Седона — небольшой городок в Аризоне,
+                заслуживающий большего!</h2>
+                <p class="about-text">
+                    Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!
+                </p>        
+        <section class="gallery">
+            <div class="gallery-description">
+                <h3 class="gallery-description-title bg-blue">Настоящий городок</h3>
+                <p class="gallery-description-text">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+            </div>
+            <div class="gallery-images">
+                <img src="images/photo-1.jpg" alt="house with flags." class="gallery-img" width="800px" height="384px">
+            </div>
+            <div class="gallery-description">
+                <h3 class="gallery-description-title">Небольшая площадь</h3>
+                <p class="gallery-description-text">Все достопримечательности находятся очень близко</p>
+            </div>
+            <div class="gallery-description">
+                <h3 class="gallery-description-title">Красивая дорога</h3>
+                <p class="gallery-description-text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+            </div>
+            <div class="gallery-description">
+                <h3 class="gallery-description-title">Мало туристов</h3>
+                <p class="gallery-description-text">Большинство едет в Гранд Каньон и толпится там</p>
+            </div>
+            <div class="gallery-images">
+                <img src="images/photo-2.jpg" alt="red canyons." class="gallery-img" width="800px" height="385px">
+            </div>
+            <div class="gallery-description">
+                <h3 class="gallery-description-title bg-blue">Там есть мост дьявола</h3>
+                <p class="gallery-description-text">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+            </div>
+        </section>
+        <section class="avantages" data-test="advantages">   
+            <h2 class="visually-hodden">Преймущества</h2>    
+            <ul class="avantages-list">
+                <li class="avantages-items">
+                    <h3 class="avantages-items-title">Жильё</h3>
+                    <p class="avantages-itemsdesc">Рекомендуем пожитьв настоящем мотеле, 
+                        всё как в кино!</p>
+                </li>
+                
+            </ul>        
+            <ul class="avantages-list">
+                <li class="avantages-items">
+                    <h3 class="avantages-items-title">Еда</h3>
+                    <p class="avantages-itemsdesc">Еда
+                        Всегда заказывайте
+                        топовый фирменный бургер, вы не разочаруетесь!</p>
+                </li>
+                
+            </ul>        
+            <ul class="avantages-list">
+                <li class="avantages-items">
+                    <h3 class="avantages-items-title">Сувениры</h3>
+                    <p class="avantages-itemsdesc">Не только китайского, 
+                        но и настоящего местного производства!</p>
+                </li>                
+            </ul>        
+        </section>
+        <section class="search" data-test="search">
+            <h2 class="search-title">
+
+            </h2>
+            <p class="search-desc">Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+            <a href="catalog" class="search-button"></a>ПОИСК ГОСТИНИЦЫ В седоне</a>
+        </section> 
+        <footer class="footer" data-test="footer">
+            <section class="social">
+                <h2 class="visually-hidden">Социальные сети</h2>
+                <ul class="social-list">
+                    <li class="social-item">
+                        <span class="visually-hidden">
+                            В контакте
+                        </span>
+                    </li>
+                    <li class="social-item">
+                        <span class="visually-hidden">
+                            Телеграмм
+                        </span>
+                    </li>
+                    <li class="social-item">
+                        <span class="visually-hidden">
+                            Ю тубе
+                        </span>
+                    </li>
+                </ul>
+                <span class="social-tel">+7 (812) 812-12-12</span>
+            </section>
+            <section class="newsletter" data-test="subscribe"></section>
+            <h2 class="newsletter-title">Подпишитесь на рассылку</h2>
+            <p class="newsletter-desc">Только полезная информация и никакого спама, честное бойскаутское!</p>
+            <label>
+                <input type="email" placeholder="Ваш e-mail" class="newsletter-email">
+                Подписаться
+            </label>
+        </footer>        
+    </main>
+    </body</htm>
